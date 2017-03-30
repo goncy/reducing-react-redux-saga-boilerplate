@@ -1,0 +1,39 @@
+{
+  "name": "reducing-react-redux-saga-boilerplate",
+  "version": "0.0.1",
+  "description": "Example about reducing boilerplate using React, Redux and Redux Saga",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goncy/reducing-react-redux-saga-boilerplate"
+  },
+  "author": "goncy",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "redux",
+    "saga",
+    "api",
+    "call",
+    "simple"
+  ],
+  "dependencies": {
+    "async-action-creator": "^0.0.9",
+    "react": "^15.4.2",
+    "react-common-hocs": "^0.1.3",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "recompose": "^0.22.0",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.14.4",
+    "redux-saga-api-call": "^0.0.3"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
