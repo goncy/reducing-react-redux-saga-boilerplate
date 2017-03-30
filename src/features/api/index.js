@@ -1,11 +1,11 @@
 import fetch from './sagas/fetch'
-import PeopleInfo from './components/PeopleInfo'
+import ShowJoke from './components/ShowJoke'
 import * as actions from './actions'
 
 export default {
   actions,
   components: {
-    PeopleInfo
+    ShowJoke
   },
   sagas: [
     fetch

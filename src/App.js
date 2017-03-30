@@ -7,7 +7,7 @@ import './App.css'
 
 class App extends Component {
   componentDidMount () {
-    // People ID
+    // Joke ID
     this.props.get(1)
   }
 
@@ -18,7 +18,7 @@ class App extends Component {
           <h2>Reducing React, Redux and Redux Saga boilerplate</h2>
         </div>
         <div className="App-intro">
-          <api.components.PeopleInfo action={api.actions.fetchPeople} />
+          <api.components.ShowJoke action={api.actions.fetchJoke} />
         </div>
       </div>
     )
@@ -26,7 +26,7 @@ class App extends Component {
 }
 
 const mapDispatchToProps = {
-  get: api.actions.fetchPeople.run
+  get: api.actions.fetchJoke.run
 }
 
 export default connect(undefined, mapDispatchToProps)(App)

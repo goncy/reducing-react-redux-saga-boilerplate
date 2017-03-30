@@ -2,8 +2,8 @@ import React from 'react'
 
 import common from '../../../common'
 
-const PeopleInfo = ({response}) => (
+const ShowJoke = ({response}) => (
   <div>{JSON.stringify(response)}</div>
 )
 
-export default common.hocs.asyncFromAction(PeopleInfo)
+export default common.hocs.asyncFromAction(ShowJoke)
